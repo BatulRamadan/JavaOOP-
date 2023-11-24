@@ -1,0 +1,13 @@
+ constructor is a special method It is called when an object is created from a class and allows you to set initial values for the object's attributes.
+example:
+
+public B()
+{
+
+}
+// defalut constructor
+public B(String name,int age)
+{
+
+}
+// parameter constructor
