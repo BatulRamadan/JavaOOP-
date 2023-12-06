@@ -1,0 +1,55 @@
+package first.project_01;
+
+
+public class Human {
+    
+private String name;
+private int age=21;
+
+public Human()
+{
+}
+public Human(String name,int age)
+{
+this.name=name;
+this.age=age;
+}
+public void setName(String name)
+{
+this.name=name;
+}
+public String getName()
+{
+return name;
+}
+public void setAge(int age)
+{
+this.age=age;
+}
+public int getAge()
+{
+return age;
+}
+public void printlnfo()
+{
+    System.out.println("Name:"+name);
+    System.out.println("Age:"+age);
+}
+public String compare(Human h)
+{
+if(this.age>h.age)
+{
+return this.name;
+}
+else if(this.age<h.age)
+{
+return h.name;
+}
+else
+{
+return"They are the same age";
+}
+}
+
+}
+
